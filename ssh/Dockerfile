@@ -21,11 +21,7 @@ RUN \
         cmake=3.17.2-r0 \
         docker=19.03.12-r0 \
         json-c-dev=0.14-r1 \
-        libffi-dev=3.3-r2 \
-        libuv-dev=1.38.1-r0 \
-        openssl-dev=1.1.1g-r0 \
-        python3-dev=3.8.5-r0 \
-        zlib-dev=1.2.11-r3 \
+        cifs-utils \ 
     \
     && apk add --no-cache \
         ack=3.3.1-r0 \
